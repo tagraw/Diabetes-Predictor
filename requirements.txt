@@ -1,0 +1,11 @@
+torch
+scikit-learn
+fastapi
+uvicorn
+joblib
+numpy
+pandas
+matplotlib
+seaborn
+pytest
+docker
