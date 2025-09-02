@@ -20,6 +20,10 @@ class DiabetesInput(BaseModel):
     s5: float
     s6: float
 
+@app.get("/")
+def home():
+    return {"message": "Diabetes Prediction API is running!"}
+
 
 @app.post("/predict")
 def predict_diabetes(data: DiabetesInput):
