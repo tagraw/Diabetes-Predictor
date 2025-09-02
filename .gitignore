@@ -1,6 +1,8 @@
 # Python
 __pycache__/
-*.pyc
+*.pkl
+.env
+.ipynb_checkpoints
 
 # Virtual env
 .venv/
